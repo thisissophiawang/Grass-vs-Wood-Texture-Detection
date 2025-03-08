@@ -105,4 +105,4 @@ This project implements **two texture classification algorithms** to distinguish
 
 ### **Run Gradio Interface Locally**
 ```bash
-python visualize_output.py
+gradio visualize_output.py
