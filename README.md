@@ -87,11 +87,13 @@ This project implements **two texture classification algorithms** to distinguish
 ---
 
 ## 🖼️ Sample Visualizations  
-### **Feature Extraction Example**
-![GLCM Features](https://github.com/thisissophiawang/Grass-vs-Wood-Texture-Detection/blob/main/results/glcm_features.jpg?raw=true)  
 
-### **Classification Output**
-![Prediction Results](https://github.com/thisissophiawang/Grass-vs-Wood-Texture-Detection/blob/main/results/classification_output.jpg?raw=true)  
+### **Precision Comparison Between Models**  
+![Precision Comparison](https://github.com/thisissophiawang/Grass-vs-Wood-Texture-Detection/blob/main/precision_comparison_image.png?raw=true)  
+
+### **Decision Boundary Visualization**  
+![Decision Boundary](https://github.com/thisissophiawang/Grass-vs-Wood-Texture-Detection/blob/main/decision%20broundary.png)  
+
 
 ---
 
