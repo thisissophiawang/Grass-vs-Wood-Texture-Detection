@@ -5,6 +5,9 @@
 ## 📌 Project Overview  
 This project implements **two texture classification algorithms** to distinguish between **grass** and **wood** images. The goal is to explore different **texture feature extraction techniques** and evaluate their effectiveness in a machine learning-based classification system.  
 
+## Project Report
+https://github.com/thisissophiawang/Grass-vs-Wood-Texture-Detection/blob/main/Classification%20Report.pdf
+
 ### **Objective**  
 - Implement and compare **two texture analysis techniques**:  
   - **Gray Level Co-occurrence Matrix (GLCM)**  
