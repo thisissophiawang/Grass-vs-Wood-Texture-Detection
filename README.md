@@ -1,6 +1,6 @@
 # 🌱🌲 Grass vs. Wood Texture Classification  
 
-![Project Preview]([https://github.com/thisissophiawang/Grass-vs-Wood-Texture-Detection/blob/main/Visualizations%20output%20/train/lego_detector/val_batch1_labels.jpg?raw=true](https://github.com/thisissophiawang/Grass-vs-Wood-Texture-Detection/blob/main/texture-classification-preview.svg))  
+![Project Preview](https://github.com/thisissophiawang/Grass-vs-Wood-Texture-Detection/blob/main/texture-classification-preview.svg)
 
 ## 📌 Project Overview  
 This project implements **two texture classification algorithms** to distinguish between **grass** and **wood** images. The goal is to explore different **texture feature extraction techniques** and evaluate their effectiveness in a machine learning-based classification system.  
