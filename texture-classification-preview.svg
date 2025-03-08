@@ -1,0 +1,261 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- Title -->
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#333">Grass vs. Wood Texture Classification</text>
+  
+  <!-- Divider -->
+  <line x1="50" y1="70" x2="750" y2="70" stroke="#ddd" stroke-width="2"/>
+  
+  <!-- Sample Images Section -->
+  <text x="400" y="100" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#555">Sample Textures</text>
+  
+  <!-- Grass Textures Group -->
+  <g transform="translate(150, 140)">
+    <text x="0" y="-10" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2e7d32">Grass Textures</text>
+    
+    <!-- Grass Texture 1 -->
+    <rect x="-100" y="0" width="100" height="100" fill="#81c784" stroke="#2e7d32" stroke-width="2" rx="5" ry="5"/>
+    <!-- Grass-like texture -->
+    <g transform="translate(-100, 0)">
+      <line x1="0" y1="10" x2="10" y2="0" stroke="#1b5e20" stroke-width="1"/>
+      <line x1="10" y1="10" x2="20" y2="0" stroke="#2e7d32" stroke-width="1"/>
+      <line x1="20" y1="10" x2="30" y2="0" stroke="#1b5e20" stroke-width="1"/>
+      <line x1="30" y1="10" x2="40" y2="0" stroke="#2e7d32" stroke-width="1"/>
+      <line x1="40" y1="10" x2="50" y2="0" stroke="#1b5e20" stroke-width="1"/>
+      <line x1="50" y1="10" x2="60" y2="0" stroke="#2e7d32" stroke-width="1"/>
+      <line x1="60" y1="10" x2="70" y2="0" stroke="#1b5e20" stroke-width="1"/>
+      <line x1="70" y1="10" x2="80" y2="0" stroke="#2e7d32" stroke-width="1"/>
+      <line x1="80" y1="10" x2="90" y2="0" stroke="#1b5e20" stroke-width="1"/>
+      <line x1="90" y1="10" x2="100" y2="0" stroke="#2e7d32" stroke-width="1"/>
+      
+      <line x1="0" y1="20" x2="10" y2="10" stroke="#388e3c" stroke-width="1"/>
+      <line x1="10" y1="20" x2="20" y2="10" stroke="#1b5e20" stroke-width="1"/>
+      <line x1="20" y1="20" x2="30" y2="10" stroke="#388e3c" stroke-width="1"/>
+      <line x1="30" y1="20" x2="40" y2="10" stroke="#1b5e20" stroke-width="1"/>
+      <line x1="40" y1="20" x2="50" y2="10" stroke="#388e3c" stroke-width="1"/>
+      <line x1="50" y1="20" x2="60" y2="10" stroke="#1b5e20" stroke-width="1"/>
+      <line x1="60" y1="20" x2="70" y2="10" stroke="#388e3c" stroke-width="1"/>
+      <line x1="70" y1="20" x2="80" y2="10" stroke="#1b5e20" stroke-width="1"/>
+      <line x1="80" y1="20" x2="90" y2="10" stroke="#388e3c" stroke-width="1"/>
+      <line x1="90" y1="20" x2="100" y2="10" stroke="#1b5e20" stroke-width="1"/>
+      
+      <!-- Repeat pattern for the rest of the texture -->
+      <g transform="translate(0, 20)">
+        <line x1="0" y1="10" x2="10" y2="0" stroke="#1b5e20" stroke-width="1"/>
+        <line x1="10" y1="10" x2="20" y2="0" stroke="#2e7d32" stroke-width="1"/>
+        <line x1="20" y1="10" x2="30" y2="0" stroke="#1b5e20" stroke-width="1"/>
+        <line x1="30" y1="10" x2="40" y2="0" stroke="#2e7d32" stroke-width="1"/>
+        <line x1="40" y1="10" x2="50" y2="0" stroke="#1b5e20" stroke-width="1"/>
+        <line x1="50" y1="10" x2="60" y2="0" stroke="#2e7d32" stroke-width="1"/>
+        <line x1="60" y1="10" x2="70" y2="0" stroke="#1b5e20" stroke-width="1"/>
+        <line x1="70" y1="10" x2="80" y2="0" stroke="#2e7d32" stroke-width="1"/>
+        <line x1="80" y1="10" x2="90" y2="0" stroke="#1b5e20" stroke-width="1"/>
+        <line x1="90" y1="10" x2="100" y2="0" stroke="#2e7d32" stroke-width="1"/>
+      </g>
+      
+      <g transform="translate(0, 40)">
+        <line x1="0" y1="10" x2="10" y2="0" stroke="#388e3c" stroke-width="1"/>
+        <line x1="10" y1="10" x2="20" y2="0" stroke="#1b5e20" stroke-width="1"/>
+        <line x1="20" y1="10" x2="30" y2="0" stroke="#388e3c" stroke-width="1"/>
+        <line x1="30" y1="10" x2="40" y2="0" stroke="#1b5e20" stroke-width="1"/>
+        <line x1="40" y1="10" x2="50" y2="0" stroke="#388e3c" stroke-width="1"/>
+        <line x1="50" y1="10" x2="60" y2="0" stroke="#1b5e20" stroke-width="1"/>
+        <line x1="60" y1="10" x2="70" y2="0" stroke="#388e3c" stroke-width="1"/>
+        <line x1="70" y1="10" x2="80" y2="0" stroke="#1b5e20" stroke-width="1"/>
+        <line x1="80" y1="10" x2="90" y2="0" stroke="#388e3c" stroke-width="1"/>
+        <line x1="90" y1="10" x2="100" y2="0" stroke="#1b5e20" stroke-width="1"/>
+      </g>
+      
+      <g transform="translate(0, 60)">
+        <line x1="0" y1="10" x2="10" y2="0" stroke="#1b5e20" stroke-width="1"/>
+        <line x1="10" y1="10" x2="20" y2="0" stroke="#2e7d32" stroke-width="1"/>
+        <line x1="20" y1="10" x2="30" y2="0" stroke="#1b5e20" stroke-width="1"/>
+        <line x1="30" y1="10" x2="40" y2="0" stroke="#2e7d32" stroke-width="1"/>
+        <line x1="40" y1="10" x2="50" y2="0" stroke="#1b5e20" stroke-width="1"/>
+        <line x1="50" y1="10" x2="60" y2="0" stroke="#2e7d32" stroke-width="1"/>
+        <line x1="60" y1="10" x2="70" y2="0" stroke="#1b5e20" stroke-width="1"/>
+        <line x1="70" y1="10" x2="80" y2="0" stroke="#2e7d32" stroke-width="1"/>
+        <line x1="80" y1="10" x2="90" y2="0" stroke="#1b5e20" stroke-width="1"/>
+        <line x1="90" y1="10" x2="100" y2="0" stroke="#2e7d32" stroke-width="1"/>
+      </g>
+      
+      <g transform="translate(0, 80)">
+        <line x1="0" y1="10" x2="10" y2="0" stroke="#388e3c" stroke-width="1"/>
+        <line x1="10" y1="10" x2="20" y2="0" stroke="#1b5e20" stroke-width="1"/>
+        <line x1="20" y1="10" x2="30" y2="0" stroke="#388e3c" stroke-width="1"/>
+        <line x1="30" y1="10" x2="40" y2="0" stroke="#1b5e20" stroke-width="1"/>
+        <line x1="40" y1="10" x2="50" y2="0" stroke="#388e3c" stroke-width="1"/>
+        <line x1="50" y1="10" x2="60" y2="0" stroke="#1b5e20" stroke-width="1"/>
+        <line x1="60" y1="10" x2="70" y2="0" stroke="#388e3c" stroke-width="1"/>
+        <line x1="70" y1="10" x2="80" y2="0" stroke="#1b5e20" stroke-width="1"/>
+        <line x1="80" y1="10" x2="90" y2="0" stroke="#388e3c" stroke-width="1"/>
+        <line x1="90" y1="10" x2="100" y2="0" stroke="#1b5e20" stroke-width="1"/>
+      </g>
+    </g>
+    
+    <!-- Grass Texture 2 -->
+    <rect x="20" y="0" width="100" height="100" fill="#66bb6a" stroke="#2e7d32" stroke-width="2" rx="5" ry="5"/>
+    <!-- Another grass texture style -->
+    <g transform="translate(20, 0)">
+      <!-- Create a denser grass texture -->
+      <pattern id="grassPattern" width="10" height="10" patternUnits="userSpaceOnUse">
+        <line x1="0" y1="10" x2="5" y2="0" stroke="#1b5e20" stroke-width="0.5"/>
+        <line x1="5" y1="10" x2="10" y2="0" stroke="#388e3c" stroke-width="0.5"/>
+      </pattern>
+      <rect width="100" height="100" fill="url(#grassPattern)"/>
+      
+      <!-- Add some random grass blades -->
+      <line x1="10" y1="20" x2="10" y2="5" stroke="#1b5e20" stroke-width="1.5"/>
+      <line x1="25" y1="30" x2="25" y2="10" stroke="#388e3c" stroke-width="1.5"/>
+      <line x1="40" y1="25" x2="40" y2="5" stroke="#1b5e20" stroke-width="1.5"/>
+      <line x1="55" y1="35" x2="55" y2="15" stroke="#388e3c" stroke-width="1.5"/>
+      <line x1="70" y1="20" x2="70" y2="3" stroke="#1b5e20" stroke-width="1.5"/>
+      <line x1="85" y1="28" x2="85" y2="12" stroke="#388e3c" stroke-width="1.5"/>
+      
+      <line x1="15" y1="50" x2="15" y2="35" stroke="#1b5e20" stroke-width="1.5"/>
+      <line x1="30" y1="60" x2="30" y2="45" stroke="#388e3c" stroke-width="1.5"/>
+      <line x1="45" y1="55" x2="45" y2="40" stroke="#1b5e20" stroke-width="1.5"/>
+      <line x1="60" y1="65" x2="60" y2="50" stroke="#388e3c" stroke-width="1.5"/>
+      <line x1="75" y1="58" x2="75" y2="42" stroke="#1b5e20" stroke-width="1.5"/>
+      <line x1="90" y1="70" x2="90" y2="55" stroke="#388e3c" stroke-width="1.5"/>
+      
+      <line x1="20" y1="80" x2="20" y2="65" stroke="#1b5e20" stroke-width="1.5"/>
+      <line x1="35" y1="90" x2="35" y2="75" stroke="#388e3c" stroke-width="1.5"/>
+      <line x1="50" y1="85" x2="50" y2="70" stroke="#1b5e20" stroke-width="1.5"/>
+      <line x1="65" y1="95" x2="65" y2="80" stroke="#388e3c" stroke-width="1.5"/>
+      <line x1="80" y1="88" x2="80" y2="72" stroke="#1b5e20" stroke-width="1.5"/>
+      <line x1="95" y1="98" x2="95" y2="82" stroke="#388e3c" stroke-width="1.5"/>
+    </g>
+  </g>
+  
+  <!-- Wood Textures Group -->
+  <g transform="translate(550, 140)">
+    <text x="0" y="-10" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#8d6e63">Wood Textures</text>
+    
+    <!-- Wood Texture 1 -->
+    <rect x="-100" y="0" width="100" height="100" fill="#a1887f" stroke="#6d4c41" stroke-width="2" rx="5" ry="5"/>
+    <!-- Wood grain pattern -->
+    <g transform="translate(-100, 0)">
+      <path d="M0,10 Q25,5 50,10 Q75,15 100,10" fill="none" stroke="#8d6e63" stroke-width="1"/>
+      <path d="M0,20 Q35,25 65,20 Q85,15 100,20" fill="none" stroke="#795548" stroke-width="1"/>
+      <path d="M0,30 Q15,25 45,30 Q75,35 100,30" fill="none" stroke="#6d4c41" stroke-width="1"/>
+      <path d="M0,40 Q25,45 50,40 Q75,35 100,40" fill="none" stroke="#8d6e63" stroke-width="1"/>
+      <path d="M0,50 Q35,45 65,50 Q85,55 100,50" fill="none" stroke="#795548" stroke-width="1"/>
+      <path d="M0,60 Q15,65 45,60 Q75,55 100,60" fill="none" stroke="#6d4c41" stroke-width="1"/>
+      <path d="M0,70 Q25,65 50,70 Q75,75 100,70" fill="none" stroke="#8d6e63" stroke-width="1"/>
+      <path d="M0,80 Q35,85 65,80 Q85,75 100,80" fill="none" stroke="#795548" stroke-width="1"/>
+      <path d="M0,90 Q15,85 45,90 Q75,95 100,90" fill="none" stroke="#6d4c41" stroke-width="1"/>
+      
+      <!-- Wood knot -->
+      <circle cx="70" cy="30" r="10" fill="#5d4037"/>
+      <circle cx="70" cy="30" r="7" fill="#6d4c41"/>
+      <circle cx="70" cy="30" r="4" fill="#795548"/>
+      
+      <!-- Another wood knot -->
+      <circle cx="25" cy="75" r="8" fill="#5d4037"/>
+      <circle cx="25" cy="75" r="5" fill="#6d4c41"/>
+      <circle cx="25" cy="75" r="3" fill="#795548"/>
+    </g>
+    
+    <!-- Wood Texture 2 -->
+    <rect x="20" y="0" width="100" height="100" fill="#bcaaa4" stroke="#8d6e63" stroke-width="2" rx="5" ry="5"/>
+    <!-- Different wood grain pattern -->
+    <g transform="translate(20, 0)">
+      <!-- Vertical wood grain -->
+      <line x1="10" y1="0" x2="10" y2="100" stroke="#a1887f" stroke-width="2"/>
+      <line x1="25" y1="0" x2="25" y2="100" stroke="#8d6e63" stroke-width="3"/>
+      <line x1="40" y1="0" x2="40" y2="100" stroke="#a1887f" stroke-width="1"/>
+      <line x1="55" y1="0" x2="55" y2="100" stroke="#8d6e63" stroke-width="2"/>
+      <line x1="70" y1="0" x2="70" y2="100" stroke="#a1887f" stroke-width="3"/>
+      <line x1="85" y1="0" x2="85" y2="100" stroke="#8d6e63" stroke-width="1"/>
+      
+      <!-- Horizontal wood grain details -->
+      <path d="M0,15 Q25,12 50,15 Q75,18 100,15" fill="none" stroke="#a1887f" stroke-width="0.5"/>
+      <path d="M0,35 Q25,32 50,35 Q75,38 100,35" fill="none" stroke="#a1887f" stroke-width="0.5"/>
+      <path d="M0,55 Q25,52 50,55 Q75,58 100,55" fill="none" stroke="#a1887f" stroke-width="0.5"/>
+      <path d="M0,75 Q25,72 50,75 Q75,78 100,75" fill="none" stroke="#a1887f" stroke-width="0.5"/>
+      <path d="M0,95 Q25,92 50,95 Q75,98 100,95" fill="none" stroke="#a1887f" stroke-width="0.5"/>
+    </g>
+  </g>
+  
+  <!-- Processing Pipeline -->
+  <text x="400" y="290" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#555">Classification Pipeline</text>
+  
+  <!-- Pipeline Flow -->
+  <g transform="translate(100, 320)">
+    <!-- Input Image -->
+    <rect x="0" y="0" width="100" height="60" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" rx="5" ry="5"/>
+    <text x="50" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">Input Image</text>
+    
+    <!-- Arrow -->
+    <path d="M110,30 L150,30" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <defs>
+      <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+        <polygon points="0 0, 10 3.5, 0 7" fill="#666"/>
+      </marker>
+    </defs>
+    
+    <!-- Feature Extraction -->
+    <rect x="160" y="0" width="100" height="60" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" rx="5" ry="5"/>
+    <text x="210" y="25" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">Feature</text>
+    <text x="210" y="45" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">Extraction</text>
+    
+    <!-- Feature Types -->
+    <rect x="160" y="70" width="40" height="30" fill="#c8e6c9" stroke="#388e3c" stroke-width="1" rx="3" ry="3"/>
+    <text x="180" y="90" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">GLCM</text>
+    
+    <rect x="220" y="70" width="40" height="30" fill="#c8e6c9" stroke="#388e3c" stroke-width="1" rx="3" ry="3"/>
+    <text x="240" y="90" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">LBP</text>
+    
+    <!-- Arrow -->
+    <path d="M270,30 L310,30" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <!-- ML Classification -->
+    <rect x="320" y="0" width="100" height="60" fill="#fff3e0" stroke="#e65100" stroke-width="2" rx="5" ry="5"/>
+    <text x="370" y="25" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">ML</text>
+    <text x="370" y="45" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">Classification</text>
+    
+    <!-- Classifier Types -->
+    <rect x="320" y="70" width="30" height="30" fill="#ffe0b2" stroke="#e65100" stroke-width="1" rx="3" ry="3"/>
+    <text x="335" y="90" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">SVM</text>
+    
+    <rect x="355" y="70" width="30" height="30" fill="#ffe0b2" stroke="#e65100" stroke-width="1" rx="3" ry="3"/>
+    <text x="370" y="90" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">kNN</text>
+    
+    <rect x="390" y="70" width="30" height="30" fill="#ffe0b2" stroke="#e65100" stroke-width="1" rx="3" ry="3"/>
+    <text x="405" y="90" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">DT</text>
+    
+    <!-- Arrow -->
+    <path d="M430,30 L470,30" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <!-- Result -->
+    <rect x="480" y="0" width="100" height="60" fill="#e8eaf6" stroke="#3f51b5" stroke-width="2" rx="5" ry="5"/>
+    <text x="530" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">Classification</text>
+    
+    <!-- Classification Labels -->
+    <rect x="480" y="70" width="45" height="30" fill="#81c784" stroke="#2e7d32" stroke-width="1" rx="3" ry="3"/>
+    <text x="502" y="90" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">Grass</text>
+    
+    <rect x="535" y="70" width="45" height="30" fill="#a1887f" stroke="#6d4c41" stroke-width="1" rx="3" ry="3"/>
+    <text x="557" y="90" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">Wood</text>
+  </g>
+  
+  <!-- Metrics Section -->
+  <text x="400" y="430" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#555">Performance Metrics</text>
+  
+  <g transform="translate(200, 450)">
+    <rect x="0" y="0" width="80" height="30" fill="#e3f2fd" stroke="#1976d2" stroke-width="1" rx="3" ry="3"/>
+    <text x="40" y="20" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">Accuracy</text>
+    
+    <rect x="100" y="0" width="80" height="30" fill="#e3f2fd" stroke="#1976d2" stroke-width="1" rx="3" ry="3"/>
+    <text x="140" y="20" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">Precision</text>
+    
+    <rect x="200" y="0" width="80" height="30" fill="#e3f2fd" stroke="#1976d2" stroke-width="1" rx="3" ry="3"/>
+    <text x="240" y="20" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">Recall</text>
+    
+    <rect x="300" y="0" width="80" height="30" fill="#e3f2fd" stroke="#1976d2" stroke-width="1" rx="3" ry="3"/>
+    <text x="340" y="20" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">F1-Score</text>
+  </g>
+</svg>
